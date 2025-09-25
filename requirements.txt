@@ -1,9 +1,9 @@
 streamlit==1.38.0
-torch==2.0.1
-torchvision==0.15.2
+torch==1.13.1+cpu
+torchvision==0.14.1+cpu
 pillow==10.4.0
 opencv-python-headless==4.10.0.84
 ultralytics==8.2.0  # Untuk YOLOv5 hub.load
 requests==2.32.3
-numpy==1.26.4
-hilalpy==0.1.0  # Opsional, untuk observabilitas
+numpy==1.24.3
+hilalpy==0.1.0
