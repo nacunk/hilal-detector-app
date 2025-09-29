@@ -1,0 +1,19 @@
+# Configuration settings for the project
+
+# Database configuration
+DATABASE_HOST = 'localhost'
+DATABASE_PORT = 5432
+DATABASE_USER = 'user'
+DATABASE_PASSWORD = 'password'
+DATABASE_NAME = 'database'
+
+# Server configuration
+SERVER_HOST = '0.0.0.0'
+SERVER_PORT = 8000
+
+# Logging configuration
+LOGGING_LEVEL = 'INFO'
+LOGGING_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+LOGGING_FILE = 'app.log'
+
+# Add any other configuration settings here
